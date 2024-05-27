@@ -16,5 +16,5 @@ func fileUploader(ctx context.Context) {
 		log.Println("upload file failed,err: ", err)
 		return
 	}
-	log.Printf("Successfully uploaded %s of size %d\n", objectName, object.Size)
+	log.Printf("Successfully uploaded %s %s of size %d\n", objectName, object.Size)
 }
